@@ -5,3 +5,10 @@ git add .
 git commit -m "added testing files"
 rm testing.py
 git restore testing.py
+git remote add origin https://github.com/Anuragpal1029/github-devops-workshops.git...
+git remote -v
+clear
+git remote -v
+git remote set-url origin https://token@github.com/Anura... 
+git remote -v
+git push origin master
